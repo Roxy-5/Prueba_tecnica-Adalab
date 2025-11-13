@@ -38,30 +38,33 @@ Análisis exploratorio completo de un dataset de reservas hoteleras, incluyendo 
 
 ### 3. Visualizaciones
 - 📊 Distribución por estado de reservas
-- 🥧 Análisis de monedas utilizadas
-- 📈 Top clientes más activos
-- 🗺️ Análisis por región geográfica
+- 🥧 Análisis de monedas utilizadas  
+- 📈 Top 10 clientes más activos
+- 🗺️ Análisis por región geográfica (barras apiladas)
+- 🔥 Heatmap de status vs región
+- 📋 Principales categorías de motivos
 - 📅 Evolución temporal de requests
-- 💰 Análisis de importes por moneda
+- 💰 Análisis de importes por moneda (boxplots)
+- 🔗 Correlación entre variables numéricas
+![](https://github.com/user-attachments/assets/c01e8ad3-e12c-4e6f-81b0-9ee892ba822d)
 
 ## 📊 Principales Hallazgos
 ### Calidad de Datos
-- **Dataset inicial**: 1,000 registros
-- **Registros eliminados**: 15 (sin autorización + sin motivo)
-- **Emails corregidos**: 4 formatos inválidos
-- **Valores imputados**: 55 en Amount + 8 en EUR
+- **Dataset final**: 239,396 registros válidos
+- **Completitud**: 100% tras proceso de limpieza
+- **Duplicados**: Únicamente 2 registros (despreciable)
+- **Nulos restantes**: 83 en campo opcional "Reason 2"
 
 ### Insights de Negocio
-- **Moneda principal**: EUR (85.2%)
-- **Estado predominante**: Approved (67.8%)
-- **Cliente más activo**: Hotel_Chain_A con 23 requests 
-- **Región con más actividad**: Europe (78.5%)
-![](https://github.com/user-attachments/assets/c01e8ad3-e12c-4e6f-81b0-9ee892ba822d)
+- **Moneda principal**: USD (95.5%)
+- **Estado predominante**: Applied (92.4%)
+- **Cliente más activo**: CLIENT1 con 84466 requests 
+- **Región con más actividad**: Region 1 (36.0%)
 
 ## ⚠️ Limitaciones y Supuestos
-- Se asume que emails con formato 'userXXhotelbeds.com' son errores tipográficos
-- Valores nulos en Amount se imputaron con la mediana por presencia de outliers
-- 'Reason 2' se mantiene con nulos por ser campo opcional
+- Campo "Reason 2" mantiene 83 nulos por ser opcional
+- Categoría "OTHERS" requiere subcategorización para insights granulares
+- Análisis temporal limitado por formato de fechas
 
 ## 📋 Próximos Pasos
 - [ ] Análisis predictivo de aprobación de requests
