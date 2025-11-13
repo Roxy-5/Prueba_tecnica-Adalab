@@ -11,12 +11,12 @@ Análisis exploratorio completo de un dataset de reservas hoteleras, incluyendo 
   
 🚀 Cómo usar
 1. Clona este repositorio.
-2. Instala las librerías.
-  - seaborn
-  - matplotlib
-  - pandas
-  - numpy
-  - scipy
+2. Instala las librerías:
+    - seaborn
+    - matplotlib
+    - pandas
+    - numpy
+    - scipy
 
 4. Ejecuta las celdas de código una a una.
 
