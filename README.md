@@ -71,13 +71,14 @@ Análisis exploratorio completo de un dataset de reservas hoteleras, incluyendo 
 - Análisis temporal limitado por formato de fechas
 - Los códigos CLIENT1, CLIENT2, etc. representan clientes anonimizados
 - Los códigos Region 1, Region 2, etc. representan países anonimizados
-- La alta concentración en "OTHERS" indica procesos operacionales estándar y requiere subcategorización para insights más específicos
+- La alta concentración en "OTHERS" indica procesos operacionales estándar
 - Issues técnicos/operacionales (<2%) están dentro de rangos normales
 
 ## 📋 Próximos Pasos
+- [ ] Subcategorizar "OTHERS" en categorías específicas 
 - [ ] Análisis predictivo de aprobación de requests
-- [ ] Segmentación de clientes por comportamiento
-- [ ] Análisis de estacionalidad en requests
+- [ ] Segmentación de clientes por comportamiento y región
+- [ ] Análisis de estacionalidad y demanda en requests
 - [ ] Dashboard interactivo con Power BI/Tableau
 
 🪐 Autor
