@@ -1,5 +1,4 @@
 ![](https://github.com/Roxy-5/Evaluacion1-Adalab/blob/main/image.jpg?raw=true)
-
 ## 📊 Prueba técnica
 Análisis exploratorio completo de un dataset de reservas hoteleras, incluyendo limpieza de datos, validación de requisitos de negocio y visualizaciones.
 
