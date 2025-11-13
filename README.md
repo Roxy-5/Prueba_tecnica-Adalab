@@ -1,12 +1,73 @@
 ![](https://github.com/Roxy-5/Evaluacion1-Adalab/blob/main/image.jpg?raw=true)
 
-🌍 Prueba técnica
+## 📊 Prueba técnica
+Análisis exploratorio completo de un dataset de reservas hoteleras, incluyendo limpieza de datos, validación de requisitos de negocio y visualizaciones.
 
+## 🎯 Objetivos
+- Identificar y corregir problemas de calidad de datos
+- Validar reglas de negocio específicas
+- Generar insights mediante visualizaciones
+- Preparar datos para análisis posteriores
+  
 🚀 Cómo usar
-
 1. Clona este repositorio.
 2. Instala las librerías.
 3. Ejecuta las celdas de código una a una.
+
+## 📁 Estructura del Proyecto
+```
+├── Prueba_técnica.ipynb    # Notebook principal con análisis
+├── bookings.csv           # Dataset original
+├── README.md              # Este archivo
+└── requirements.txt       # Dependencias
+```
+
+## 📈 Análisis Realizado
+### 1. Limpieza de Datos
+- ✅ Eliminación de registros sin autorización
+- ✅ Corrección de formatos de email inválidos
+- ✅ Imputación de valores nulos en columnas numéricas
+- ✅ Conversión de monedas a EUR
+- ✅ Eliminación de registros sin motivo obligatorio
+
+### 2. Validaciones de Negocio
+- ✅ Control de duplicados por reserva
+- ✅ Verificación de campos obligatorios
+- ✅ Validación de formatos de email
+- ✅ Conversión unificada a euros
+
+### 3. Visualizaciones
+- 📊 Distribución por estado de reservas
+- 🥧 Análisis de monedas utilizadas
+- 📈 Top clientes más activos
+- 🗺️ Análisis por región geográfica
+- 📅 Evolución temporal de requests
+- 💰 Análisis de importes por moneda
+
+## 📊 Principales Hallazgos
+### Calidad de Datos
+- **Dataset inicial**: 1,000 registros
+- **Registros eliminados**: 15 (sin autorización + sin motivo)
+- **Emails corregidos**: 4 formatos inválidos
+- **Valores imputados**: 55 en Amount + 8 en EUR
+
+### Insights de Negocio
+- **Moneda principal**: EUR (85.2%)
+- **Estado predominante**: Approved (67.8%)
+- **Cliente más activo**: Hotel_Chain_A con 23 requests 
+- **Región con más actividad**: Europe (78.5%)
+![](https://github.com/user-attachments/assets/c01e8ad3-e12c-4e6f-81b0-9ee892ba822d)
+
+## ⚠️ Limitaciones y Supuestos
+- Se asume que emails con formato 'userXXhotelbeds.com' son errores tipográficos
+- Valores nulos en Amount se imputaron con la mediana por presencia de outliers
+- 'Reason 2' se mantiene con nulos por ser campo opcional
+
+## 📋 Próximos Pasos
+- [ ] Análisis predictivo de aprobación de requests
+- [ ] Segmentación de clientes por comportamiento
+- [ ] Análisis de estacionalidad en requests
+- [ ] Dashboard interactivo con Power BI/Tableau
 
 🪐 Autor
 
