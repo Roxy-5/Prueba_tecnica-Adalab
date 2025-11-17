@@ -1,6 +1,6 @@
 ![](https://github.com/Roxy-5/Evaluacion1-Adalab/blob/main/image.jpg?raw=true)
 ## 📊 Prueba técnica
-Análisis exploratorio completo de un dataset de reservas hoteleras, incluyendo limpieza de datos, validación de requisitos de negocio y visualizaciones.
+Análisis exploratorio completo de un dataset de reservas hoteleras, incluyendo limpieza de datos, validación de requisitos de negocio y visualizaciones. Enlace: https://docs.google.com/spreadsheets/d/1rs_RJce7c4ig36f-t8JIgC_q1sp2-zdJ/edit?rtpof=true&sd=true&gid=1553229816#gid=1553229816
 
 ## 🎯 Objetivos
 - Identificar y corregir problemas de calidad de datos
