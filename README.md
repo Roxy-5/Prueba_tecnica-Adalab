@@ -23,10 +23,9 @@ Dataset: https://docs.google.com/spreadsheets/d/1rs_RJce7c4ig36f-t8JIgC_q1sp2-zd
 
 ## 📁 Estructura del Proyecto
 ```
-├── Prueba_técnica.ipynb    # Notebook principal con análisis
+├── Prueba_técnica.ipynb   # Notebook principal con análisis
 ├── bookings.csv           # Dataset original
 ├── README.md              # Este archivo
-└── requirements.txt       # Dependencias
 ```
 
 ## 📈 Análisis Realizado
