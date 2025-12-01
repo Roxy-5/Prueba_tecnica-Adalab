@@ -10,7 +10,7 @@ Dataset: https://docs.google.com/spreadsheets/d/1rs_RJce7c4ig36f-t8JIgC_q1sp2-zd
 - Generar insights mediante visualizaciones
 - Preparar datos para análisis posteriores
   
-🚀 Cómo usar
+## 🚀 Cómo usar
 1. Clona este repositorio.
 2. Instala las librerías:
     - seaborn
