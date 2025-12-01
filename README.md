@@ -5,10 +5,10 @@ Análisis exploratorio completo de un dataset de reservas hoteleras, incluyendo 
 Dataset: https://docs.google.com/spreadsheets/d/1rs_RJce7c4ig36f-t8JIgC_q1sp2-zdJ/edit?rtpof=true&sd=true&gid=1553229816#gid=1553229816
 
 ## 🎯 Objetivos
-- Identificar y corregir problemas de calidad de datos
-- Validar reglas de negocio específicas
-- Generar insights mediante visualizaciones
-- Preparar datos para análisis posteriores
+- Identificar y corregir problemas de calidad de datos.
+- Validar reglas de negocio específicas.
+- Generar insights mediante visualizaciones.
+- Preparar datos para análisis posteriores.
   
 ## 🚀 Cómo usar
 1. **Clona este repositorio.**
@@ -30,21 +30,21 @@ Dataset: https://docs.google.com/spreadsheets/d/1rs_RJce7c4ig36f-t8JIgC_q1sp2-zd
 
 ## 📈 Análisis Realizado
 ### 1. Limpieza de Datos
-- ✅ Eliminación de registros sin autorización
-- ✅ Corrección de formatos de email inválidos
-- ✅ Imputación de valores nulos en columnas numéricas
-- ✅ Conversión de monedas a EUR
-- ✅ Eliminación de registros sin motivo obligatorio
+- ✅ Eliminación de registros sin autorización.
+- ✅ Corrección de formatos de email inválidos.
+- ✅ Imputación de valores nulos en columnas numéricas.
+- ✅ Conversión de monedas a EUR.
+- ✅ Eliminación de registros sin motivo obligatorio.
 
 ### 2. Validaciones de Negocio
-- ✅ Control de duplicados por reserva
-- ✅ Verificación de campos obligatorios
-- ✅ Validación de formatos de email
-- ✅ Conversión unificada a euros
+- ✅ Control de duplicados por reserva.
+- ✅ Verificación de campos obligatorios.
+- ✅ Validación de formatos de email.
+- ✅ Conversión unificada a euros.
 
 ### 3. Visualizaciones
 - 📊 Distribución por estado de reservas
-- 🥧 Análisis de monedas utilizadas  
+- 🥧 Análisis de monedas utilizadas 
 - 📈 Top 10 clientes más activos
 - 🗺️ Análisis por región geográfica (barras apiladas)
 - 🔥 Heatmap de status vs región
@@ -56,10 +56,10 @@ Dataset: https://docs.google.com/spreadsheets/d/1rs_RJce7c4ig36f-t8JIgC_q1sp2-zd
 
 ## 📊 Principales Hallazgos
 ### Calidad de Datos
-- **Dataset final**: 239,396 registros válidos
-- **Completitud**: 100% tras proceso de limpieza
-- **Duplicados**: Únicamente 2 registros (despreciable)
-- **Nulos restantes**: 83 en campo opcional "Reason 2"
+- **Dataset final**: 239,396 registros válidos.
+- **Completitud**: 100% tras proceso de limpieza.
+- **Duplicados**: Únicamente 2 registros (despreciable).
+- **Nulos restantes**: 83 en campo opcional "Reason 2".
 
 ### Insights de Negocio
 - **Moneda principal**: USD (95.5%)
@@ -68,19 +68,19 @@ Dataset: https://docs.google.com/spreadsheets/d/1rs_RJce7c4ig36f-t8JIgC_q1sp2-zd
 - **Región con más actividad**: Region 1 (36.0%)
 
 ## ⚠️ Limitaciones y Supuestos
-- Campo "Reason 2" mantiene 83 nulos por ser opcional
-- Análisis temporal limitado por formato de fechas
-- Los códigos CLIENT1, CLIENT2, etc. representan clientes anonimizados
-- Los códigos Region 1, Region 2, etc. representan países anonimizados
-- La alta concentración en "OTHERS" indica procesos operacionales estándar
-- Issues técnicos/operacionales (<2%) están dentro de rangos normales
+- Campo "Reason 2" mantiene 83 nulos por ser opcional.
+- Análisis temporal limitado por formato de fechas.
+- Los códigos CLIENT1, CLIENT2, etc. representan clientes anonimizados.
+- Los códigos Region 1, Region 2, etc. representan países anonimizados.
+- La alta concentración en "OTHERS" indica procesos operacionales estándar.
+- Issues técnicos/operacionales (<2%) están dentro de rangos normales.
 
 ## 📋 Próximos Pasos
-- [ ] Subcategorizar "OTHERS" en categorías específicas 
-- [ ] Análisis predictivo de aprobación de requests
-- [ ] Segmentación de clientes por comportamiento y región
-- [ ] Análisis de estacionalidad y demanda en requests
-- [ ] Dashboard interactivo con Power BI/Tableau
+- [ ] Subcategorizar "OTHERS" en categorías específicas. 
+- [ ] Análisis predictivo de aprobación de requests.
+- [ ] Segmentación de clientes por comportamiento y región.
+- [ ] Análisis de estacionalidad y demanda en requests.
+- [ ] Dashboard interactivo con Power BI/Tableau.
 
 🪐 Autor
 
