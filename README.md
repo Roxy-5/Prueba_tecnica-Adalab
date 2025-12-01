@@ -62,10 +62,10 @@ Dataset: https://docs.google.com/spreadsheets/d/1rs_RJce7c4ig36f-t8JIgC_q1sp2-zd
 - **Nulos restantes**: 83 en campo opcional "Reason 2".
 
 ### Insights de Negocio
-- **Moneda principal**: USD (95.5%)
-- **Estado predominante**: Applied (92.4%)
-- **Cliente más activo**: CLIENT1 con 84466 requests 
-- **Región con más actividad**: Region 1 (36.0%)
+- **Moneda principal**: USD (95.5%).
+- **Estado predominante**: Applied (92.4%).
+- **Cliente más activo**: CLIENT1 con 84466 requests. 
+- **Región con más actividad**: Region 1 (36.0%).
 
 ## ⚠️ Limitaciones y Supuestos
 - Campo "Reason 2" mantiene 83 nulos por ser opcional.
